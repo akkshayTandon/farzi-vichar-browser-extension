@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Random Shayari Generator",
+    "description": "This is a random hindi shayari generator.",
+    "permissions": [
+        "activeTab",
+        "sidePanel"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "shayarilogo.png",
+        "default_title": "shayari extension in react"
+    },
+    "side_panel": {
+        "default_path": "index.html"
+    }
+}
